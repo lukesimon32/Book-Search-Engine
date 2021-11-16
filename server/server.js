@@ -1,7 +1,7 @@
 const express = require('express');
+const path = require('path');
 // placed appolo server on server.js
 const { ApolloServer } = require('apollo-server-express');
-const path = require('path');
 const db = require('./config/connection');
 // const routes = require('./routes');
 const { typeDefs, resolvers }= require('./schemas')
